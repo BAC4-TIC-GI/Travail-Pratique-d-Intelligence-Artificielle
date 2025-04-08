@@ -19,8 +19,10 @@ Ce projet Python génère automatiquement un **emploi du temps hebdomadaire** po
 
 ***Variables :***
 Chaque cours = variables → à quelles périodes il est assigné (ex: IA → Lundi P1, Lundi P2, etc.)
+
 ***Domaines :***
 Les périodes disponibles, ex: Jour_Période comme Lundi_1, Lundi_2, Lundi_3, Mardi_1...
+
 ***🕒 Contraintes :***
 •	3 périodes par jour.
 •	Chaque enseignant enseigne **au maximum 2 périodes par jour**.
