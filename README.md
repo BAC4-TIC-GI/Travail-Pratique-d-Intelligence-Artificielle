@@ -24,6 +24,7 @@ Chaque cours = variables → à quelles périodes il est assigné (ex: IA → Lu
 Les périodes disponibles, ex: Jour_Période comme Lundi_1, Lundi_2, Lundi_3, Mardi_1...
 
 ***🕒 Contraintes :***
+
 •	3 périodes par jour.
 •	Chaque enseignant enseigne **au maximum 2 périodes par jour**.
 •	Un enseignant donne **un seul cours à la fois**.
