@@ -11,11 +11,22 @@ Ce projet Python génère automatiquement un **emploi du temps hebdomadaire** po
 
 ## 🧠 Logique du Projet
 
-### Modélisation
+## Modélisation CSP
 
 - Les **enseignants** sont stockés dans le dictionnaire `Profs`.
 - Les **cours (ECUs)** sont dans le dictionnaire `ECUs`, chaque ECU ayant un certain nombre de crédits (1 crédit = 5 séances).
 - La **classe `Queue`** est une file héritée de `deque` avec une méthode `pop()` personnalisée pour un comportement FIFO.
+
+***Variables :***
+Chaque cours = variables → à quelles périodes il est assigné (ex: IA → Lundi P1, Lundi P2, etc.)
+***Domaines :***
+Les périodes disponibles, ex: Jour_Période comme Lundi_1, Lundi_2, Lundi_3, Mardi_1...
+***🕒 Contraintes :***
+•	3 périodes par jour.
+•	Chaque enseignant enseigne **au maximum 2 périodes par jour**.
+•	Un enseignant donne **un seul cours à la fois**.
+•	**15 heures de TPE** par semaine (**soit 5 périodes**).
+•	Réduire le nombre de **semaines → regrouper au max.**.
 
 ### Génération d'emploi du temps
 
@@ -42,7 +53,7 @@ pip install reportlab
 
 ## ▶️ Exécution
 
-Lance simplement le script (Pour Groupe 1 par exemple):
+Lance simplement le script (Pour Groupe 1 par exemple si on a navigué dans le dossier Groupe 1):
 
 ```bash
 python groupe1_gestion_horaire.py
