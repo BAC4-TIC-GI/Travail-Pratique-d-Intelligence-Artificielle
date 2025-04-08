@@ -25,11 +25,11 @@ Les périodes disponibles, ex: Jour_Période comme Lundi_1, Lundi_2, Lundi_3, Ma
 
 ***🕒 Contraintes :***
 
-•	3 périodes par jour.
-•	Chaque enseignant enseigne **au maximum 2 périodes par jour**.
-•	Un enseignant donne **un seul cours à la fois**.
-•	**15 heures de TPE** par semaine (**soit 5 périodes**).
-•	Réduire le nombre de **semaines → regrouper au max.**.
+- 3 périodes par jour.
+- Chaque enseignant enseigne **au maximum 2 périodes par jour**.
+- Un enseignant donne **un seul cours à la fois**.
+- **15 heures de TPE** par semaine (**soit 5 périodes**).
+- Réduire le nombre de **semaines → regrouper au max.**.
 
 ### Génération d'emploi du temps
 
